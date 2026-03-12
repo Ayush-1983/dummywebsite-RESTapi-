@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std ; 
 int main(){
-    cout<<"welcome to RESTapi based dummy website!"<<endl ; 
+    string name ;
+    cout<<"enter your name : " ;
+    cin>> name ; 
+    cout<<"welcome "<<name<<" to RESTapi based dummy website!"<<endl ; 
     return 0 ; 
 }
